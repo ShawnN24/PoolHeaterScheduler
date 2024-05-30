@@ -1,0 +1,18 @@
+Tracking Variables:
+* Current Temp              |:int
+* Temp Range HIGH           |:int
+* Temp Range LOW            |:int
+* Target Temp               |:int
+* Heater ON/OFF             |:boolean
+
+* Current Time              |:int
+* Current Day               |:string
+* Schedule                  |:week[]
+
+week {
+    day: string
+    TimeOn: int
+    TimeOff: int
+}
+
+Schedule Capability (EX: 11pm turn off, 11am turn on, Monday-Friday)
